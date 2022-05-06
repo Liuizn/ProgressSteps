@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
 
 :root {
-    --line-border-fill: #3698db;
-    --line-border-empty: #e0e0e0;
+    --line-border-fill: purple;
+    --line-border-empty: rgb(187, 179, 187);
 }
 
 * {
@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #f6f7fb;
+    background-color: #cac2c2;
     font-family: 'Muli', sans-serif;
     display: flex;
     align-items: center ;
@@ -73,7 +73,6 @@ body {
 
 .circle.active {
     border-color: var(--line-border-fill);
-
 }
 
 .btn {
